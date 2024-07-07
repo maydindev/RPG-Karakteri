@@ -45,10 +45,10 @@ export default function App() {
 
   /* ️⬇️️ ------------------ Kodunuzu aşağıya yazın -----------------️️ ⬇️️ */
 
+  const [characterData,setCharacterData] = useState({hat:true, shield:true, weapon:"sword", name:"Lythienne Fenralei", attackOptions: attackOptionsList.slice(0,6), stats: {hp: 10,mp: 20, strength: 30}})
+
   /* ------------------------------------------------------------------
 
-  
-    
     ⚠️ ️Kodunuzu yukarıya yazın. Aşağıdaki kod değiştirilmemelidir ⚠️
     
     --------------------------------------------------------------------*/
